@@ -1,0 +1,116 @@
+/* Arquivo responsável por armazenar todos os códigos relacionados a estilização do HTML, 
+separado para facilitar a atualziação e manutenção do código */
+
+/* Define a fonte padrão e remove margens e preenchimentos padrão */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho com um fundo azul, texto branco e centralizado */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estiliza o contêiner da foto de perfil */
+.perfil-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza a imagem de perfil para preencher o contêiner */
+.perfil-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Define o estilo para o título principal da página */
+.titulo {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* Estiliza o menu de navegação com links brancos e transições suaves */
+.menu-navegacao {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Estiliza os itens do menu de navegação */
+.nav-item {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 18px;
+}
+
+/* Define a cor do item do menu ao passar o mouse sobre ele */
+.nav-item:hover {
+    color: #ffd700;
+}
+
+/* Estiliza o contêiner das redes sociais */
+.redes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Estiliza o limite das margens das redes sociais*/
+.rede {
+    margin: 20px;
+}
+
+/* Estiliza as imagens das redes sociais */
+.rede img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Estiliza o contêiner das experiências e resumo com um fundo azul e o texto branco */
+.experiencia,
+.resumo {
+    background-color: #3498db;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* Estiliza o título das experiências dentro dos containers */
+.experiencia h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estiliza os parágrafos das experiências e do resumo */
+.experiencia p,
+.resumo p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Estiliza os titulos*/
+.titulo {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
